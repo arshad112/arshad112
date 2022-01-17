@@ -1,4 +1,4 @@
 - 👋 Hi, I’m Arshad
 - 👀 I’m interested in web development
 - 🌱 I’m currently learning advanced Javascript
-- 📫 How to reach me arshadbasha.g@gmail.com
+- 📫 Reach me at arshadbasha.g@gmail.com

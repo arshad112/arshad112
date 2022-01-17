@@ -1,0 +1,83 @@
+#wrapper
+{
+    display:flex;
+}
+
+/* left panel */
+#profile-highlights
+{
+    border:1px solid rgb(128, 128, 128);
+    flex-basis: 30%;
+    margin: .5%;
+    border-radius: 3%;
+}
+
+/* profile-picture */
+img
+{
+    width:80%;
+    margin: 5% 10%;
+    border: 1px solid grey;
+    border-radius: 50%;    
+}
+
+#name-title
+{
+    font-family: -webkit-pictograph;
+    font-weight: bolder;
+    font-size: 2em;
+    margin:0 5%;
+    color: #12395b;
+}
+
+#tagline
+{
+    margin: 0;
+    margin:0 5%;
+}
+
+#quick-links
+{
+    margin: 8% 5%;
+}
+
+tr
+{
+    height: 4vh;
+}
+
+td
+{
+    width: 10%;
+    text-align:left;
+}
+
+td:last-child
+{
+    width:70%;
+}
+
+main
+{
+    border: 1px solid grey;
+    flex-basis: 70%;
+
+    background-color:black;
+    color: #009578;
+
+    margin: .5%;
+    border-radius: 1%;
+}
+
+main pre
+{
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    
+    font-size: 2em;
+    
+}
