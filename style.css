@@ -38,7 +38,14 @@ img
 
 #quick-links
 {
-    margin: 8% 5%;
+    margin: 8% 3%;
+    border:1px solid grey;
+    border-radius: 2%;
+}
+
+table
+{
+    margin:2%;
 }
 
 tr
@@ -80,4 +87,45 @@ main pre
     
     font-size: 2em;
     
+}
+
+
+@media screen and (max-width:470px)
+{
+    html
+    {
+        margin: 0;
+        padding:0;
+    }
+
+    #wrapper
+    {
+        display:block;
+        box-sizing: border-box;
+        width: 95%;
+    }
+
+    #profile-highlights
+    {
+        width: 100%;
+        margin:0;
+    }
+
+    main
+    {
+        display: block;
+        width: 98%;
+        margin: 2% auto;
+        border-radius: 4%;
+    }
+
+    main pre
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-shrink: 1; */
+        
+    }
+
 }
